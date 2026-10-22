@@ -4,6 +4,8 @@
 venv/
 env/
 
+
+__init__.py
 # Python cache and test cache
 __pycache__/
 *.py[cod]
