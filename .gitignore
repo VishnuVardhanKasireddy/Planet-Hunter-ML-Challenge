@@ -1,0 +1,32 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local datasets
+data/raw/
+data/processed/
+*.npy
+
+# Local environment secrets
+.env
+.env.*
+
+# Generated experiment artifacts
+artifacts/
+submission.csv
+submissions/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
